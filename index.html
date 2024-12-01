@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Applications Forms</h1>
+
+    <form action="" class="form_part">
+        <div class="form_1">
+            <div class="form_name">
+        <input type="text" id="fname" placeholder="Enter Your First Name">
+            </div>
+            <div class="form_name">
+        <input type="text" id="lname" placeholder="Enter Your Last Name">
+    </div>
+    
+    <div class="form_name">
+        <input type="date" id="dob" placeholder="DD/MM/YY"> 
+    </div>
+    </div><br><br>
+
+       <label for="">Gender</label>
+        <label id="gender" for="gender"> <input type="radio" value="Male">Male</label>
+        <label for="gender"><input type="radio"  value="Male">Female</label> <br><br>
+
+        <label for="check">Religions</label>
+        <input type="radio" id="check" value="Islam" required> Islam
+        <br><br>
+
+        <label for="marite">Maritial Status</label>
+        <input type="radio" id="marite"> Single
+        <input type="radio" id="marite"> Married
+        <input type="radio" id="marite"> Others <br><br>
+
+        <div class="phone_part">
+        <input type="text"  id="nid" placeholder="Natinal Id">
+        <input type="number" id="number" placeholder="Phone Number">
+        <input type="email" id="email" placeholder="E-mail">
+        </div>
+       
+        <div class="academy">
+            <input type="number" name="" id="ssc_roll" placeholder="S S C Roll">
+            <input type="number" id="hsc_roll" placeholder="HSC/Diploma Roll">
+            <select name="" id="degre" aria-placeholder="Honour's /Fazil/Degree pass">
+                <option value="">Honour's /Fazil/Degree pass</option>
+                <option value="">Master's/Kamil</option>
+                <option value="">4 Years diploma</option>
+            </select>
+        </div>
+        <div class="academy_2">
+            <select name="" id="subject" aria-placeholder="Enter your major subject ">
+                <option value="">Bachelur of Social Sceince </option>
+                <option value="">Bachelur of Political Sceince </option>
+                <option value="">Bachelur of  Arts </option>
+                <option value="">Bachelur of  Business Study </option>
+                <option value="">Bachelur of English </option>
+                <option value="">Bachelur of Bangla</option>
+                <option value="">Bachelur of History </option>
+                <option value="">Bachelur of managememt </option>
+                <option value="">Bachelur of ICT </option>
+            </select>
+            <input type="text" id="college_name" placeholder="University/college/Institute Name">
+            <input type="date" name="" id="result_date" placeholder="Result Publishing Date">
+        </div>
+        <div class="location">
+          <select name="" id="pres_edu" aria-placeholder="Select on Options">
+            <option value="">Not Applicable</option>
+            <option value=""> 1 Year Masters (running)</option>
+            <option value="">Masters part 1</option>
+            <option value="">Masters Part 2</option>
+            <option value="">Kamil Part 1</option>
+            <option value="">Kamil Part 2</option>
+            <option value="">Bsc Engineering (running)</option>
+          </select>
+          <select name="" id="city" aria-placeholder="Prefarence CIty">
+            <option value="">Dhaka</option>
+            <option value="">Chittagong</option>
+          </select>
+        </div>
+        <div class="btn">
+        <button type="button">Submit</button>
+    </div>
+    </form>
+    
+</body>
+</html>
